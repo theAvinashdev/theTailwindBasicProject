@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./dist/tailwindcss.css"> -->
+    <link rel="stylesheet" href="./dist/minify.css">
+    <title>Tailwind CSS</title>
+
+</head>
+
+<body>
+    <!-- navbar section goes here -->
+    <section id="">
+        <nav class="sm:py-[20px] py-[10px]">
+            <div class="wrapper sm:w-[80%] sm:mx-auto mx-2 ">
+                <div class="navBarWrapper py-1 flex justify-between">
+                    <div class="logo">
+                        <h2 class="font-primary text-[1.58rem] font-semibold text-dark-orange">Logo</h2>
+                    </div>
+                    <div class="navLinks hidden sm:block">
+                        <ul class="flex navItems font-body">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="navBtn sm:block hidden btn-primary">Sign In</div>
+                    <div class="navBtn sm:hidden block text-[1.58rem] font-semibold" id="menuOpen">&#9776;</div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- header section goes here -->
+    <section id="">
+        <div class="header">
+            <div class="wrapper text-center">
+                <h1 class="sm:mt-[5rem] mt-[3rem] font-primary">
+                    Hello There!
+                </h1>
+                <p class="complementoryHeading text-dark-gray mx-auto w-[50%]">Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit. Facere, rerum et, inventore nulla beatae ab .</p>
+
+                <a href="" class="btnCta bgPrimaryGradient">
+                    Get Started
+                </a>
+
+                <div class="decor mt-10">
+                    <div class="box w-[80%] md:h-[40vh] bgPrimaryGradient mx-auto shadow-[-4px_-4px_20px_#FF5622B7]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our what you get section goes here -->
+    <section id="" class="mb-[3rem]">
+        <div class="wrapper text-center">
+            <h1 class="sm:mt-[5rem] mt-[3rem] font-primary">
+                What you get
+            </h1>
+            <p class="complementoryHeading text-dark-gray mx-auto w-[50%">Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Facere, rerum et, inventore nulla beatae ab .</p>
+
+            <div class="decor mt-10">
+                <section class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-[3rem]">
+                    <div class="items">
+                        <div class="decor_items w-full h-[20vh] bgPrimaryGradient rounded-lg"></div>
+                        <div class="decor_desc">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, cumque.</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="decor_items w-full h-[20vh] bgPrimaryGradient rounded-lg"></div>
+                        <div class="decor_desc">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, cumque.</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="decor_items w-full h-[20vh] bgPrimaryGradient rounded-lg"></div>
+                        <div class="decor_desc">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, cumque.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- for who section goes here -->
+    <section id="">
+        <h1 class="sm:mt-[5rem] mt-[3rem] font-primary text-center">
+            For Who?
+        </h1>
+        <p class="complementoryHeading text-dark-gray mx-auto w-[50%] text-center">Lorem ipsum, dolor
+            sit amet
+            consectetur adipisicing elit</p>
+
+        <div class="for-who ">
+
+            <div class="customer">
+                <div class="card">
+                    <div class="card_circle bgPrimaryGradient"></div>
+                    <div class="card_desc text-center">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                            amethitecto ullam sunt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="customer">
+                <div class="card">
+                    <div class="card_circle bgPrimaryGradient"></div>
+                    <div class="card_desc text-center">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                            ametrchitecto ullam sunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our feature section goes here -->
+    <section id="" class="feature w-full h-auto  relative">
+        <img src="./src/images/asset-2.png" srcset="" class="absolute w-[100%] z-[-10]">
+        <div class="">
+            <h1 class="sm:mt-[5rem] mt-[3rem] font-primary text-center mb-[3rem]">
+                Feature you'll like
+            </h1>
+            <div class="card_holders w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 my-[1rem] gap-[1.5rem]">
+                <div class="cards  ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing llendus illo deleniti, architecto provident.
+                    </p>
+                </div>
+                <div class="cards  ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing llendus illo deleniti, architecto provident.
+                    </p>
+                </div>
+                <div class="cards  ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing llendus illo deleniti, architecto provident.
+                    </p>
+                </div>
+                <div class="cards  ">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing llendus illo deleniti, architecto provident.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- final testimonial section goes here -->
+    <section id="" class="mt-[3rem] md:mt-[5rem]">
+        <h1 class="text-center">Testimonials</h1>
+        <div class="testimonial_wrapper">
+            <div class="background-overlay">
+                <div class="relative card_wrapper">
+                    <div class="testmonial_card absolute">
+                        <div class="img_container">
+                            <img src="./src/images/asset-3.png" class="" alt="">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, numquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- // tools and integrations we use -->
+    <section id="" class="tools w-[100%] h-auto py-[3rem]">
+        <div class="wrapper w-[80%] mx-auto grid md:grid-cols-2 gap-[1.5rem] text-center md:text-left ">
+            <section class="flex flex-col justify-center">
+                <h1>Tools and Integrations</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates veniam facere culpa natus
+                    dolorum corporis a,ibus adipisci. Qui, hic?</p>
+            </section>
+            <section class="">
+                <img class="opacity-50 blur-[0.88px]" src="./src/images/asset-4.png" alt="" srcset="">
+            </section>
+        </div>
+    </section>
+
+    <!-- pricing section will goes here -->
+    <!-- footer goes here -->
+    <section id="pricing_section" class="w-[100%] py-[2rem] min-h-[70vh]">
+        <div class="wrapper ">
+            <h1 class="text-center">Pricing</h1>
+            <section
+                class="pricing w-[100%] lg:w-[70%] sm:w-[80%] mx-auto grid md:grid-cols-1 min-[850px]:grid-cols-2 gap-[3rem] p-[2rem]">
+                <section class="pricing_items px-[2rem] py-[1rem] first_item">
+                    <section class="pricing_heading">
+                        <h2 class="text-[1.5rem] font-bold font-primary text-dark-gray">Free</h2>
+                        <p class="text-[1.25rem] text-slate-600 font-bold">$O<span>/month</span></p>
+                    </section>
+                    <section class="pricing_body">
+                        <ul>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/cross-grey.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+
+                            <li>
+                                <span><img src="./src/images/cross-grey.png" alt="" srcset=""></span>
+                                <span>Unlimited Pro Features</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="pricing_footer">
+                        <a href="" class="btnCta bgPrimaryGradient">Buy Now</a>
+                    </section>
+                </section>
+                <section class="pricing_items px-[2rem] py-[1rem] second_item">
+                    <section class="pricing_heading">
+                        <h2 class="text-[1.5rem] font-bold font-primary text-dark-gray">Paid</h2>
+                        <p class="text-[1.25rem] text-slate-600 font-bold">$05<span>/month</span></p>
+                    </section>
+                    <section class="pricing_body">
+                        <ul>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited API Calls</span>
+                            </li>
+
+                            <li>
+                                <span><img src="./src/images/check.png" alt="" srcset=""></span>
+                                <span>Unlimited Pro Features</span>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="pricing_footer">
+                        <a href="" class="btnCta bgPrimaryGradient">Buy Now</a>
+                    </section>
+                </section>
+            </section>
+        </div>
+    </section>
+
+    <!-- faq section goes here -->
+    <section id="" class="w-full">
+        <div class="wrappper w-[80%] mx-auto m-[2rem] p-2 md:my-[5rem]">
+            <h1 class="text-center font-primary text-[2rem]">Frequently Asked Questions</h1>
+            <div class="faq_section">
+                <div class="faq">
+                    <div class="faq-item">
+                        <div class="faq-question" data-id="1">What is your return policy?</div>
+                        <div class="faq-answer" data-id="1">Our return policy lasts 30 days Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Sit magnam repellat possimus numquam ipsa, voluptatum quasi,
+                            laborum laboriosam in deserunt nemo tenetur reprehenderit eos eum obcaecati. Atque sit
+                            itaque nostrum..</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" data-id="2">How do I track my order?</div>
+                        <div class="faq-answer" data-id="2">You can track your order by Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Tenetur eum est, minus amet ab voluptatibus quis iure rem
+                            laborum aperiam. Nihil quod ducimus molestias eveniet libero! Iusto, laborum asperiores
+                            numquam laudantium atque quod labore perferendis qui error quia excepturi sequi? Libero odio
+                            explicabo iusto voluptate accusantium maxime beatae. Voluptatibus, ut.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-id="3">How Can I ask for support?</div>
+                        <div class="faq-answer" data-id="3">You can ask for support on this website.. your order by
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eum est, minus amet ab
+                            voluptatibus quis iure rem laborum aperiam. Nihil quod ducimus molestias eveniet libero!
+                            Iusto, laborum asperiores numquam laudantium atque quod labore perferendis qui error quia
+                            excepturi sequi? Libero odio explicabo iusto voluptate accusantium maxime beatae.
+                            Voluptatibus, ut.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" data-id="4">How Can I use on Android Smartphone?</div>
+                        <div class="faq-answer" data-id="4">You can easily access on any device track your order by
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eum est, minus amet ab
+                            voluptatibus quis iure rem laborum aperiam. Nihil quod ducimus molestias eveniet libero!
+                            Iusto, laborum asperiores numquam laudantium atque quod labore perferendis qui error quia
+                            excepturi sequi? Libero odio explicabo iusto voluptate accusantium maxime beatae.
+                            Voluptatibus, ut.</div>
+                    </div>
+
+                    <!-- Add more FAQ items as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- //footer goes here -->
+    <footer id="" class="bg-light-gray p-[3rem]">
+        <div class="wrapper w-[80%] mx-auto">
+            <div
+                class="footer_section flex md:justify-between md:flex-row md:text-left flex-col-reverse text-center md:gap-3">
+                <div class="footer_items my-2 md:max-w-[35%]">
+                    <h1>LOGO</h1>
+                    <p class="text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo totam quam
+                        ratione. Doloribus, quam culpa!</p>
+                </div>
+                <div class="footer_items">
+                    <h2>Legal</h2>
+                    <ul>
+                        <li><a href="#">Raise a query</a></li>
+                        <li><a href="#">Term and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer_items">
+                    <h2>Menu</h2>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer_items">
+                    <h2>Social Media</h2>
+                    <ul class="flex items-center justify-center gap-4">
+                        <li><a href="" class="text-[2rem]"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="" class="text-[2rem]"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li><a href="" class="text-[2rem]"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="" class="text-[2rem]"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- nav menu -->
+    <!-- mobile{ goes here} -->
+
+    <section id="mobile_menu" class="md:hidden hidden fixed top-0 left-0 z-[50] overlay w-full h-screen bg-overlay"> 
+        <div class="">
+            <div class="wrapper w-[95%] rounded-lg min-h-[90vh] mx-auto my-[1rem]  bg-white">
+                <div id="close" class="close text-[1.66rem] flex justify-end p-2"><i class="fa-solid fa-xmark"></i></div>
+                <div class="m_menu flex flex-col justify-center items-center gap-20 text-center">
+                    <div class="logo"><h1>LOGO</h1></div>
+                    <ul>
+                        <li><a href="#" class="text-[1.5rem] font-body text-dark-gray hover:text-dark-orange">Home</a></li>
+                        <li><a href="#" class="text-[1.5rem] font-body text-dark-gray hover:text-dark-orange">About</a></li>
+                        <li><a href="#" class="text-[1.5rem] font-body text-dark-gray hover:text-dark-orange">Services</a></li>
+                        <li><a href="#" class="text-[1.5rem] font-body text-dark-gray hover:text-dark-orange">Contacts</a></li>
+                    </ul>
+                    <div class="cta_btn_group">
+                        <a href="" class="btnCta bgPrimaryGradient">
+                    Sign Up
+                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/3b84b3fdd3.js" crossorigin="anonymous"></script>
+    <script src="./src/script.js" type="text/javascript"></script>
+</body>
+
+</html>
